@@ -142,6 +142,8 @@
 		D28E5613177D9469001DF5E2 /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D28E5612177D9469001DF5E2 /* HelloWorldLayer.m */; };
 		D28E5616177D9469001DF5E2 /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D28E5615177D9469001DF5E2 /* IntroLayer.m */; };
 		D28E561E177D94B6001DF5E2 /* MenuItemsLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D28E561D177D94B6001DF5E2 /* MenuItemsLayer.m */; };
+		D28E5621177DD32B001DF5E2 /* HealthBarLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D28E5620177DD32B001DF5E2 /* HealthBarLayer.m */; };
+		D28E5623177DD6D3001DF5E2 /* greenhealthbar.png in Resources */ = {isa = PBXBuildFile; fileRef = D28E5622177DD6D3001DF5E2 /* greenhealthbar.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -428,6 +430,9 @@
 		D28E5615177D9469001DF5E2 /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
 		D28E561C177D94B6001DF5E2 /* MenuItemsLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuItemsLayer.h; sourceTree = "<group>"; };
 		D28E561D177D94B6001DF5E2 /* MenuItemsLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuItemsLayer.m; sourceTree = "<group>"; };
+		D28E561F177DD32B001DF5E2 /* HealthBarLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthBarLayer.h; sourceTree = "<group>"; };
+		D28E5620177DD32B001DF5E2 /* HealthBarLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthBarLayer.m; sourceTree = "<group>"; };
+		D28E5622177DD6D3001DF5E2 /* greenhealthbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenhealthbar.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -494,6 +499,8 @@
 				D28E5612177D9469001DF5E2 /* HelloWorldLayer.m */,
 				D28E561C177D94B6001DF5E2 /* MenuItemsLayer.h */,
 				D28E561D177D94B6001DF5E2 /* MenuItemsLayer.m */,
+				D28E561F177DD32B001DF5E2 /* HealthBarLayer.h */,
+				D28E5620177DD32B001DF5E2 /* HealthBarLayer.m */,
 				D28E5614177D9469001DF5E2 /* IntroLayer.h */,
 				D28E5615177D9469001DF5E2 /* IntroLayer.m */,
 				D28E547E177D945F001DF5E2 /* Resources */,
@@ -506,6 +513,7 @@
 		D28E547E177D945F001DF5E2 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D28E5622177DD6D3001DF5E2 /* greenhealthbar.png */,
 				D28E547F177D945F001DF5E2 /* Default.png */,
 				D28E5481177D945F001DF5E2 /* Default@2x.png */,
 				D28E5483177D945F001DF5E2 /* Default-568h@2x.png */,
@@ -947,6 +955,7 @@
 				D28E5492177D9460001DF5E2 /* Icon@2x.png in Resources */,
 				D28E5495177D9460001DF5E2 /* iTunesArtwork in Resources */,
 				D28E55EE177D9468001DF5E2 /* ChangeLog in Resources */,
+				D28E5623177DD6D3001DF5E2 /* greenhealthbar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1070,6 +1079,7 @@
 				D28E5613177D9469001DF5E2 /* HelloWorldLayer.m in Sources */,
 				D28E5616177D9469001DF5E2 /* IntroLayer.m in Sources */,
 				D28E561E177D94B6001DF5E2 /* MenuItemsLayer.m in Sources */,
+				D28E5621177DD32B001DF5E2 /* HealthBarLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

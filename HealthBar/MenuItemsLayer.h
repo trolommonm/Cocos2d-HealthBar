@@ -8,16 +8,23 @@
 
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
-#import "HelloWorldLayer.h"
+#import "HealthBarLayer.h"
 
 @interface MenuItemsLayer : CCLayer {
     
     CCMenuItem *hit;
     CCMenuItem *addHealth;
     CGSize size;
+    int currentLife;;
+    CCProgressTimer *healthBar;
     
 }
 
+@property (nonatomic, assign) CGSize size;
+
+@property (nonatomic) CCProgressTimer *healthBar;
+
 +(CCScene *) scene;
+-(CGSize ) getWinSize;
 
 @end
